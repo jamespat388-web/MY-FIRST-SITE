@@ -104,8 +104,14 @@ th, td {
 th {
   background-color: #1e3a5f;
   color: white;
-}nav a:hover {
-  text-decoration: underline;
-}main img {
-  border-radius: 50%;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main img {
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+};
