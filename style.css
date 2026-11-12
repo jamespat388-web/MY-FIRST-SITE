@@ -65,4 +65,42 @@ button {
 
 button:hover {
   background-color: #1e3a5f;
+}.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f4f6f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  margin-top: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+}
+
+th, td {
+  border: 1px solid #1e3a5f;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #1e3a5f;
+  color: white;
 }
